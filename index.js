@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-function Photography() {
-    return(
-        <App />
-    )
-}
+import App from './App';
 
 
-ReactDOM.render(<Photography/>, document.getElementById("root"));
+ReactDOM.render(<app/>, document.getElementById("root"));
